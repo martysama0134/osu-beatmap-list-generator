@@ -10,4 +10,4 @@ It will generate a simple and clean report.html with all your beatmaps (with lin
 It requires Python to be installed. https://www.python.org/downloads/ (both python2 and python3 are supported)
 
 ### Download
-
+[master.zip](https://github.com/martysama0134/osu-beatmap-list-generator/archive/master.zip)
