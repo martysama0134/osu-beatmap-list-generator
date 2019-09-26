@@ -1,5 +1,5 @@
 # osu-beatmap-list-generator
-Osu! Beatmap List Generator
+## Osu! Beatmap List Generator
 
 ### Info
 It will generate a simple and clean report.html with all your beatmaps (with link) present in your computer, like this:
