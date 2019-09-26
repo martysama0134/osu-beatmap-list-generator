@@ -58,9 +58,14 @@ if __name__ == '__main__':
 	osuOutputReport = "OsuBeatMapListReport.html"
 	osuOutputReport2 = "OsuBeatMapListReport-{}.html"
 
-	# dir_list = getListFromFolder(osuSongsPath)
+	dir_list = getListFromFolder(osuSongsPath)
+	generateOsuReport(osuOutputReport, dir_list)
+
 	dir_list = getListFromFile("osu-list-marty.txt")
-	generateOsuReport(osuOutputReport2.format("marty"), dir_list)
+	out_file = osuOutputReport2.format("marty")
+	generateOsuReport(out_file, dir_list)
+
 	dir_list = getListFromFile("osu-list-friv.txt")
-	generateOsuReport(osuOutputReport2.format("friv"), dir_list)
+	out_file = osuOutputReport2.format("friv")
+	generateOsuReport(out_file, dir_list)
 
