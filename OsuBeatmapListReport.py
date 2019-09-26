@@ -14,6 +14,7 @@ def getOsuSearchUrl(osuTitle):
 	if sys.version_info[0] < 3:
 		return osuSearchPrefix.format(urllib.quote(osuTitle))
 	else:
+		import urllib.parse
 		return osuSearchPrefix.format(urllib.parse.quote(osuTitle))
 
 def walklevel(some_dir, level=1):
