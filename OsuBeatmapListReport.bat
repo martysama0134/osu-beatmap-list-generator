@@ -1,0 +1,2 @@
+@python OsuBeatmapListReport.py
+@pause
